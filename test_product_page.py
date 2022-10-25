@@ -10,4 +10,3 @@ def test_guest_can_add_product_to_basket(browser):
     page.product_has_been_added_to_your_basket()
     page.basket_price_is_equal_product_price()
 
-print("test")
